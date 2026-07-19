@@ -3,9 +3,6 @@
 **Módulo:** Linux e Cibersegurança  
 **Programa:** Skodji Digital — Percurso Reskilling  
 **Formador:** Péricles Borges  
-**Duração:** 1h20 (prática guiada)  
-**Objetivo de Aprendizagem:** OA1 · Analisar  
-**Data de conclusão:** Julho 2026  
 
 ---
 
@@ -149,4 +146,3 @@ nmap -sV -sC 10.128.158.184
 
 ---
 
-*Portfólio desenvolvido no âmbito do programa **Skodji Digital** — Módulo Linux e Cibersegurança · Zezito Andrade Silva · 2026*
