@@ -38,7 +38,7 @@ awk '{print $5}' firewall_logs.txt | awk -F':' '{print $1, $2}' | sort -u | awk 
 
 **Saída:**
 ```text
-     47 203.0.113.10
+     16 203.0.113.10
       3 10.0.0.1
 ```
 
