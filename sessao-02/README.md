@@ -150,6 +150,4 @@ cat /var/www/html/resources/development/2021/docs/memo
 - [TryHackMe — Linux Server Forensics](https://tryhackme.com/room/linuxserverforensics)
 - [Apache Log Format Documentation](https://httpd.apache.org/docs/current/logs.html)
 
----
 
-*Portfólio desenvolvido no âmbito do programa **Skodji Digital** — Módulo Linux e Cibersegurança · Zezito Andrade Silva · 2026*
