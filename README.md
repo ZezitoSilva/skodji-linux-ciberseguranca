@@ -13,3 +13,4 @@
 | Sessão 01 | Introdução ao Linux e Nmap | [Ver](sessao-01/README.md) |
 | Sessão 02 | Auditoria Linux e Análise de Logs | [Ver](sessao-02/README.md) |
 | Sessão 03 | Hardening Linux e Firewalls | [Ver](./sessao-03/README.md) |
+| Sessão 04 | Gestão Segura de Acessos SSH | [Ver](./sessao-04/README.md) |
