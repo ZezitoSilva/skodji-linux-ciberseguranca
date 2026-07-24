@@ -14,3 +14,4 @@
 | Sessão 02 | Auditoria Linux e Análise de Logs | [Ver](sessao-02/README.md) |
 | Sessão 03 | Hardening Linux e Firewalls | [Ver](./sessao-03/README.md) |
 | Sessão 04 | Gestão Segura de Acessos SSH | [Ver](./sessao-04/README.md) |
+| Sessão 05 | Análise de Vulnerabilidades e Auditoria (Lynis) | [Ver](./sessao-05/README.md) |
