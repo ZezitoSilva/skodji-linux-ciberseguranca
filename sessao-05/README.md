@@ -1,11 +1,14 @@
 ## 🔍 Sessão 05 — Análise de Vulnerabilidades em Linux e Ferramentas de Auditoria
 
 **Módulo:** Linux e Cibersegurança
-**Programa:** Skodji Digital — Percurso Reskilling
-**Formador:** Péricles Borges
-**Objetivo de Aprendizagem:** OA5 · Criar
-**Data de conclusão:** Julho 2026
 
+**Programa:** Skodji Digital — Percurso Reskilling
+
+**Formador:** Péricles Borges
+
+**Objetivo de Aprendizagem:** OA5 · Criar
+
+**Data de conclusão:** Julho 2026
 ---
 
 ### 🛡️ Contexto
