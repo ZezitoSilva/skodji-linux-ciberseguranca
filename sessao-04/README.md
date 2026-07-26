@@ -46,6 +46,8 @@ passwd: password updated successfully
 ```bash
 ssh-keygen -t ed25519
 ```
+<img width="589" height="22" alt="image" src="https://github.com/user-attachments/assets/365be53a-1f81-408e-8936-f59baf96bc70" />
+
 
 **Output:**
 ```
