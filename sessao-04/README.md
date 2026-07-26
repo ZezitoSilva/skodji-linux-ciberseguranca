@@ -220,7 +220,3 @@ utilizador_teste@killercoda:~$
 - [KillerCoda Ubuntu Playground](https://killercoda.com/playgrounds/scenario/ubuntu)
 - [OpenSSH sshd_config Manual](https://man.openbsd.org/sshd_config)
 - [Ed25519 — Comparing SSH Keys](https://goteleport.com/blog/comparing-ssh-keys/)
-
----
-
-*Portfólio desenvolvido no âmbito do programa **Skodji Digital** — Módulo Linux e Cibersegurança · Zezito Andrade Silva · 2026*
