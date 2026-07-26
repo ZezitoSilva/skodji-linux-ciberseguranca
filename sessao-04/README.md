@@ -65,6 +65,8 @@ SHA256:xK9mP3qR7nL2vB8wY4tC6hJ0uE5fA1sD root@killercoda
 | `~/.ssh/id_ed25519` | Chave **privada** — nunca partilhar |
 | `~/.ssh/id_ed25519.pub` | Chave **pública** — instalar no servidor |
 
+<img width="589" height="109" alt="image" src="https://github.com/user-attachments/assets/b0fe48b6-2abc-47de-84a4-89377becce80" />
+
 ✅ Par de chaves Ed25519 gerado com sucesso
 
 ---
