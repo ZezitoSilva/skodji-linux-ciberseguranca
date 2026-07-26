@@ -75,6 +75,8 @@ SHA256:xK9mP3qR7nL2vB8wY4tC6hJ0uE5fA1sD root@killercoda
 ssh-copy-id utilizador_teste@localhost
 ```
 
+<img width="589" height="18" alt="image" src="https://github.com/user-attachments/assets/9273a7bf-773a-4d8f-bd1f-00ce693f2e2f" />
+
 **Output:**
 ```
 Number of key(s) added: 1
