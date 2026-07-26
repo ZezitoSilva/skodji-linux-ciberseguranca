@@ -130,6 +130,7 @@ Port 2222
 ```bash
 sshd -t
 ```
+<img width="589" height="14" alt="image" src="https://github.com/user-attachments/assets/ad4cfa5f-54a8-4755-9f42-9e4fef56b538" />
 
 ```
 # Sem output = configuração válida (nenhum erro encontrado)
@@ -145,6 +146,7 @@ sshd -t
 systemctl stop ssh.socket
 systemctl disable ssh.socket
 ```
+<img width="589" height="17" alt="image" src="https://github.com/user-attachments/assets/8e5ccf47-e192-4a59-abfd-a3f125c52b27" />
 
 ```
 Removed /etc/systemd/system/sockets.target.wants/ssh.socket.
