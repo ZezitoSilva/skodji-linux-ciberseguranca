@@ -26,6 +26,7 @@ Nesta sessão protegi o canal de gestão remota de um servidor Ubuntu, eliminand
 ```bash
 adduser utilizador_teste
 ```
+<img width="589" height="24" alt="image" src="https://github.com/user-attachments/assets/65240309-338a-4638-a62d-9175b4f96b13" />
 
 **Output:**
 ```
