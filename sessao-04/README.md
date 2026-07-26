@@ -88,6 +88,8 @@ Now try logging into the machine with: ssh 'utilizador_teste@localhost'
 
 > A chave pública foi instalada em `/home/utilizador_teste/.ssh/authorized_keys`
 
+<img width="589" height="109" alt="image" src="https://github.com/user-attachments/assets/bf938daa-a44c-4659-9d7c-db7609b4fa29" />
+
 ✅ Chave pública instalada com sucesso
 
 ---
@@ -97,6 +99,8 @@ Now try logging into the machine with: ssh 'utilizador_teste@localhost'
 ```bash
 nano /etc/ssh/sshd_config
 ```
+<img width="589" height="15" alt="image" src="https://github.com/user-attachments/assets/0b979f8d-5266-45b2-87a9-5b414e80590f" />
+
 
 **Alterações aplicadas:**
 
@@ -116,6 +120,8 @@ Port 2222
 | `PermitRootLogin` | `no` | Bloqueia login como root — atacante nunca sabe o username admin |
 | `PasswordAuthentication` | `no` | Elimina força bruta — sem password não há o que adivinhar |
 | `Port` | `2222` | Reduz 99% dos scans automáticos de bots |
+
+<img width="587" height="88" alt="image" src="https://github.com/user-attachments/assets/dfd43d0f-cf41-49a8-9d05-1de29cf98d8d" />
 
 ---
 
