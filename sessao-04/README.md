@@ -199,33 +199,6 @@ utilizador_teste@killercoda:~$
 
 ---
 
-## 📄 sshd_config — Configuração Final
-
-```
-# /etc/ssh/sshd_config — Configuração Segura
-# Skodji Digital — Lab 4 — Zezito Andrade Silva
-
-Port 2222
-
-AddressFamily any
-ListenAddress 0.0.0.0
-ListenAddress ::
-
-# === SEGURANÇA DE AUTENTICAÇÃO ===
-
-PermitRootLogin no
-PasswordAuthentication no
-PubkeyAuthentication yes
-AuthorizedKeysFile .ssh/authorized_keys
-
-KerberosAuthentication no
-GSSAPIAuthentication no
-
-Subsystem sftp /usr/lib/openssh/sftp-server
-```
-
----
-
 ## 📊 Resumo de Resultados
 
 | Passo | Tarefa | Comando | Estado |
