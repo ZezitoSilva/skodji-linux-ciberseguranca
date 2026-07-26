@@ -34,6 +34,8 @@ Adding user 'utilizador_teste' ...
 Creating home directory '/home/utilizador_teste' ...
 passwd: password updated successfully
 ```
+<img width="589" height="299" alt="image" src="https://github.com/user-attachments/assets/fadfcee7-d76e-4993-8b60-23253735df81" />
+
 
 ✅ Utilizador criado com home directory em `/home/utilizador_teste`
 
