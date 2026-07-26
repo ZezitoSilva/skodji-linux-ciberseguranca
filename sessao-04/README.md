@@ -189,7 +189,7 @@ ssh -p 2222 utilizador_teste@localhost
 ```
 Welcome to Ubuntu 22.04 LTS (GNU/Linux 5.15.0-76-generic x86_64)
 
-Last login: Mon Jul  1 19:44:01 2026
+Last login: Thu Jul  23 09:42:16 2026
 utilizador_teste@killercoda:~$
 ```
 
