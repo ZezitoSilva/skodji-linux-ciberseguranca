@@ -57,6 +57,8 @@ Your public key has been saved in /root/.ssh/id_ed25519.pub
 The key fingerprint is:
 SHA256:xK9mP3qR7nL2vB8wY4tC6hJ0uE5fA1sD root@killercoda
 ```
+<img width="589" height="305" alt="image" src="https://github.com/user-attachments/assets/e87b1cc5-b270-4644-9c73-c6612a11d40e" />
+
 
 | Ficheiro | Função |
 |---|---|
