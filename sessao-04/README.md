@@ -164,6 +164,7 @@ Removed /etc/systemd/system/sockets.target.wants/ssh.socket.
 systemctl restart ssh
 systemctl status ssh
 ```
+<img width="589" height="16" alt="image" src="https://github.com/user-attachments/assets/5997edf1-c280-4531-ab12-df57168243b3" />
 
 ```
 ● ssh.service - OpenBSD Secure Shell server
@@ -171,6 +172,8 @@ systemctl status ssh
      Status: 'Server listening on 0.0.0.0 port 2222.'
      Status: 'Server listening on :: port 2222.'
 ```
+
+<img width="589" height="37" alt="image" src="https://github.com/user-attachments/assets/020f2d67-79db-4af7-9e56-bd25bdf7b905" />
 
 ✅ SSH a escutar no porto 2222 — confirmado
 
@@ -189,6 +192,8 @@ Welcome to Ubuntu 22.04 LTS (GNU/Linux 5.15.0-76-generic x86_64)
 Last login: Mon Jul  1 19:44:01 2026
 utilizador_teste@killercoda:~$
 ```
+
+<img width="589" height="50" alt="image" src="https://github.com/user-attachments/assets/0629956e-4e37-4702-8836-3e479e91b108" />
 
 ✅ **Login bem-sucedido sem prompt de password — autenticação por chave Ed25519 funcional**
 
