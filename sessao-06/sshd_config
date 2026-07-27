@@ -1,0 +1,17 @@
+# /etc/ssh/sshd_config — Configuração Segura
+# Skodji Digital — Lab 6 — Zezito Andrade Silva
+
+Port 22
+AddressFamily any
+ListenAddress 0.0.0.0
+ListenAddress ::
+
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys
+
+KerberosAuthentication no
+GSSAPIAuthentication no
+
+Subsystem sftp /usr/lib/openssh/sftp-server
