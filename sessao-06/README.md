@@ -4,7 +4,6 @@
 **Programa:** Skodji Digital — Percurso Reskilling  
 **Formador:** Péricles Borges  
 **Objectivo:** Integração de OA1 a OA5 — Auditoria, Contenção, Remediação e Validação  
-**Peso na avaliação:** 65% da nota final  
 **Plataforma:** TryHackMe — Linux Incident Surface  
 **Data:** Julho 2026  
 
@@ -306,4 +305,4 @@ Em ambiente de produção real, as seguintes acções deveriam ser executadas ap
 
 ---
 
-*Portfólio desenvolvido no âmbito do programa **Skodji Digital** — Módulo Linux e Cibersegurança · Zezito Andrade Silva · 2026*
+
