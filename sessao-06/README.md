@@ -56,6 +56,8 @@ tcp    LISTEN   0       5       [::1]:5901            [::]:*
 
 > **Nota:** O comando `nmap -sV localhost` falhou com "command not found". O Nmap não estava instalado e o ambiente de laboratório não tinha conectividade com a internet, inviabilizando a instalação via apt. A análise de portas foi concluída exclusivamente via `ss -tuln`.
 
+<img width="589" height="124" alt="image" src="https://github.com/user-attachments/assets/6f9497e5-5c20-4e16-b0e9-4aa209516cc7" />
+
 ---
 
 ### 1.2 Auditoria de Contas de Utilizadores
@@ -64,6 +66,7 @@ tcp    LISTEN   0       5       [::1]:5901            [::]:*
 ```bash
 sudo cat /etc/shadow | awk -F: '($2==""){print $1}'
 ```
+<img width="589" height="22" alt="image" src="https://github.com/user-attachments/assets/27278163-18f0-4592-90ff-b94003fa6b07" />
 
 **Propósito:** Vasculhar o ficheiro criptográfico `/etc/shadow` à procura de utilizadores locais criados sem palavra-passe associada.
 
@@ -93,6 +96,8 @@ cat ~/.ssh/authorized_keys
 | `cmnatic` | ✅ **Legítima** — conta do criador oficial da sala TryHackMe | Manter |
 | `saqib.shabbir` | ⚠️ **Suspeita** — acesso nominal específico sujeito a auditoria | Revogar e verificar |
 | `eu-west-3-vuln-vms` | 🚨 **Crítica** — indicativo de infraestrutura exposta pós-comprometimento | Revogar imediatamente |
+
+<img width="589" height="271" alt="image" src="https://github.com/user-attachments/assets/0ed543e2-bd7f-4f6e-8c66-d3226862ada5" />
 
 **⚠️ Resultado:** 3 das 4 chaves são suspeitas ou críticas. A presença de `eu-west-3-vuln-vms` é um indicador forte de comprometimento prévio da infraestrutura.
 
@@ -126,10 +131,17 @@ Rules updated (v6)
 Rules updated
 Rules updated (v6)
 
+<img width="318" height="117" alt="image" src="https://github.com/user-attachments/assets/fc877af9-c58d-4156-b4e3-1d3be82de7aa" />
+
 Default incoming policy changed to 'deny'
 (be sure to update your rules accordingly)
 
+<img width="319" height="58" alt="image" src="https://github.com/user-attachments/assets/5f8cc7ad-3bde-4960-81be-d6f6bfdab94f" />
+
 Firewall is active and enabled on system startup
+
+<img width="321" height="39" alt="image" src="https://github.com/user-attachments/assets/a524e943-00e2-4cd3-ba4f-e1ef5d362386" />
+
 ```
 
 **✅ Resultado:** Firewall UFW activada com sucesso. Apenas as portas 22 (SSH) e 5901 (VNC) permanecem acessíveis. Todo o restante tráfego de entrada é bloqueado.
@@ -173,9 +185,17 @@ sudo nano /etc/ssh/sshd_config
 | `PasswordAuthentication` | `no` | Elimina ataques de força bruta — sem password não há o que adivinhar |
 | `PubkeyAuthentication` | `yes` | Obriga autenticação exclusiva por par de chaves criptográficas |
 
+<img width="589" height="381" alt="image" src="https://github.com/user-attachments/assets/22ad96b3-0660-4f4a-9395-83e3c982f931" />
+
+<img width="589" height="66" alt="image" src="https://github.com/user-attachments/assets/8e038504-2a75-4cea-a413-53588a7b4cad" />
+
+<img width="589" height="67" alt="image" src="https://github.com/user-attachments/assets/79152f3c-e435-40d6-bb9f-785908035d6d" />
+
 **Reinicialização do serviço:**
 ```bash
 sudo systemctl restart sshd
+
+<img width="589" height="17" alt="image" src="https://github.com/user-attachments/assets/c1c32d59-ddb4-41b9-90bd-a59b20571405" />
 ```
 
 ```
@@ -196,6 +216,8 @@ sudo apt update && sudo apt upgrade -y
 0% [Connecting to eu-west-3.ec2.archive.ubuntu.com (2a05:d012:53e:ae02:63d9:eb8...)]
 ```
 
+<img width="589" height="30" alt="image" src="https://github.com/user-attachments/assets/0c7b6d86-7c1f-45c4-80c3-f8096345cf4e" />
+
 ```bash
 ping -c 3 8.8.8.8
 ```
@@ -204,6 +226,8 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 
 --- 8.8.8.8 ping statistics ---
 3 packets transmitted, 0 received, 100% packet loss, time 2053ms
+
+<img width="589" height="85" alt="image" src="https://github.com/user-attachments/assets/726459f1-9cde-4066-9093-83be806cf5a7" />
 ```
 
 **Conclusão:** O ambiente de laboratório está configurado em **isolamento completo de rede** (sem rotas para a internet). A actualização de pacotes foi impossibilitada por este factor. O retorno de 100% de packet loss no ping confirma a ausência de conectividade externa.
@@ -217,6 +241,7 @@ sudo lynis audit system
 ```
 ```
 sudo: lynis: command not found
+<img width="589" height="31" alt="image" src="https://github.com/user-attachments/assets/70b75ead-6026-42ac-aed0-99ee7edca4ab" />
 ```
 
 **Conclusão:** O Lynis não estava instalado e não foi possível instalar por ausência de conectividade. A validação da melhoria da postura de segurança foi realizada pelas checagens manuais documentadas nas fases anteriores.
