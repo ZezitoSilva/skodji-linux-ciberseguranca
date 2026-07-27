@@ -50,6 +50,7 @@ tcp    LISTEN   0       5       127.0.0.1:631         0.0.0.0:*
 tcp    LISTEN   0       128     [::]:22               [::]:*
 tcp    LISTEN   0       5       [::1]:5901            [::]:*
 ```
+<img width="589" height="355" alt="image" src="https://github.com/user-attachments/assets/10cb7cd5-2a5a-4400-b0d5-0a24855072fa" />
 
 **✅ Resultado:** Portas activas identificadas: **22 (SSH)**, **80 (HTTP)** e **5901 (VNC)**.
 
